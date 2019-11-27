@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>hw3</title>
+
+	<style>
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222222;
+  float: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 42.5px;
+  text-decoration: none;
+}
+img{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}
+.spic{
+  margin: 15px 15px 40px 15px;
+}
+.i{
+  opacity: 0;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,.3);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+.bg1{
+	background-color: 
+#FF8888
+}
+
+.bg2{
+	background-color: #66FFFF
+}
+
+.bg3{
+	background-color: #00DD00
+}
+	</style>
+</head>
+<body>
+	
+	<ul>
+		<li><a href="#a">學歷背景</a></li>
+		<li><a href="#b">興趣</a></li>
+		<li><a href="#c">目標</a></li>
+		<li><a href="#d">自我期許</a></li>
+	</ul>
+	<article>
+		
+		<h2 id="a">學歷背景</h2>
+		<p><div><img src="image/me.jpg" ><img src="image/logo.jpg" ></div>
+			<div class><b>周裕軒</b></div>
+			嘉義高中畢業 目前就讀中原大學資管系<br>
+			
+
+		
+		<br><hr>
+		
+		
+		<h2 id="c">興趣 </h2>
+
+		<h3>各類卡牌遊戲</h3>
+		<div class="bg2">
+			<div >
+				<img src="image/mtg.jpg">
+				<div class="i">
+					<p>魔法風雲會</p>
+				</div>
+			</div>
+			<div>
+				<img src="image/ptcg.png">
+				<div class="i">
+					<p>PTCG</p>
+				</div>
+			</div>
+			<div>
+				<img src="image/hearthstone.png">
+				<div class="i">
+					<p>爐石戰記</p>
+				</div>
+			</div>
+
+		</div>
+
+		<hr>
+		<div >
+
+		<h2 id="d">目標</h2>
+		<h2>由於我已經當過兵了 希望畢業以後可以根據我這四年所學找到一份適合自己的工作可以讓自己所學能有所發揮</h2>
+			
+		</div>
+	</article>
+	<footer>
+		<p>
+		<img  src="image/fb.png">
+		<a id="fb" href="https://www.facebook.com/profile.php?id=100000825081908" target="_blank">FaceBook連結</a>
+		</p>
+	</footer>
+
+</body>
+</html>
